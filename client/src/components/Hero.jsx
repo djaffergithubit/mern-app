@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
-    <section className=' grid grid-cols-12 place-items-center h-full min-h-[450px]'>
+    <section className=' grid grid-cols-12 place-items-center h-full min-h-[450px] px-16'>
          <motion.div 
             initial={{ opacity: 0, x: -150 }}
             animate={{ opacity: 1, x: 0 }}
